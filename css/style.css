@@ -118,17 +118,31 @@ p{
     justify-content: center;
 }
 
+/* ***** PAGINA-2 *******/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* footer */
 
 footer{
     background-color: rgba(128, 128, 128, 0.262) ;
-    text-align: center;
+    text-align:center;
     padding: 15px;
     /* order: 3; */
 }
-
 /* responsive
 @media(min-width:768px){
     .navbar{
