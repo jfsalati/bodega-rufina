@@ -59,7 +59,7 @@ p{
 .container-cards{
     display: flex;
     flex-direction:row;
-    /* flex-wrap: wrap; para contener los elementos */
+    flex-wrap: nowrap; 
     height: 600px;
     background-color: rgba(7, 7, 7, 0);
     justify-content: space-evenly;
@@ -78,6 +78,10 @@ p{
 .item3{
     background-color:rgba(128, 128, 128, 0.942);
 }
+.item4{
+    background-color:rgba(128, 128, 128, 0.942);
+}
+
 
 .change{
     width: 100%;
@@ -119,9 +123,10 @@ p{
 }
 
 /* ***** PAGINA-2 *******/
-
-
-
+.font-size{
+    background-color: rgba(128, 128, 128, 0.623);
+    font-size: 25px;
+}
 
 
 
