@@ -128,7 +128,7 @@ p{
     column-gap: 5px;
     justify-content: center;
     align-content: center;
-    
+
 
 }
 
@@ -214,10 +214,11 @@ nav #toggle, nav label{
 }
 
 
-    
+
 
 
 /* responsive */
+
 
 @media(max-width:768px){
     nav .menu{
