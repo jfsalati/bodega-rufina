@@ -6,6 +6,7 @@
 }
 header{
     background-color: rgba(128, 128, 128, 0.262) ;
+    width: 100%;
     /* row-gap: 40px; */
     /* color: white;
     padding: 5px;
@@ -18,13 +19,13 @@ header{
     /* flex-direction:row; */
     flex-flow: row wrap;
     /* justify-content: flex start; */
-    padding: 10px;
+    padding: 5px;
     justify-content: space-between;
-    padding-right: 20px;
+    padding-right: 10px;
 
 }
 
-.navbar{
+/* .navbar{
     background-color: beige;
     list-style: none;
     display: flex;
@@ -37,7 +38,7 @@ header{
     text-decoration: none;
     color: black;
     font-size: 20px;
-}
+} */
 
 /* main */
 main{
@@ -82,18 +83,6 @@ p{
     background-color:rgba(128, 128, 128, 0.942);
 }
 
-
-.change{
-    width: 100%;
-    height: 400px ;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-/* .change img{
-    width: 400px;
-
-} */
 .card{
     border-radius: 10px;
     box-shadow: 5px 5px 5px rgba(237, 2, 14, 0.434);
@@ -192,21 +181,65 @@ footer{
 
 
 
+.nav-wrapper{
+    width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+
+}
+
+nav{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 24px;
+    border-radius: 5px;
+    /* box-shadow: 5px 5px 5px  ; */
+}
+.menu ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color:black;
+}
+
+nav #toggle, nav label{
+    display: none;
+}
 
 
+    
 
 
 /* responsive */
 
-@media (min-width:768px){
-    .navbar{
-        display: flex;
-        flex-direction:row;
+@media(max-width:768px){
+    nav .menu{
+        width: 100%;
+        height: 0;
+        overflow: hidden;
     }
-    .section-principal h2{
-        left: 35%;
+    .menu ul{
+        flex-direction: column ;
+        align-items: center;
+        padding: 8px;
+    }
+    nav label{
+        display: inline-flex;
+        color: black;
+        cursor: pointer;
+    }
+    nav #toggle:checked ~ .menu{
+        height: 100%;
     }
 }
+
 @media(min-width:1024px){
     header{
         flex-direction: row;
