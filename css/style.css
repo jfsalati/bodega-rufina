@@ -116,7 +116,8 @@ p{
 .container-grid{
     background-color:white;
     width: 100%;
-    height: 30vh;
+    height: 40vh;
+    margin: 0;
     display: grid;
     grid-template: repeat(2,100px) / repeat(3,200px);
     grid-template-areas:
@@ -135,6 +136,7 @@ p{
 .itemgrid1{
     grid-area: itemgrid1;
     background-color: grey;
+    
 }
 .itemgrid2{
     grid-area: itemgrid2;
@@ -218,6 +220,11 @@ nav #toggle, nav label{
 
 
 /* responsive */
+
+/* @media(max-width:320px){
+    .container-grid{
+    }
+} */
 
 
 @media(max-width:768px){
