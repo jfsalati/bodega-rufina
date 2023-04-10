@@ -7,43 +7,21 @@
 header{
     background-color: rgba(128, 128, 128, 0.262) ;
     width: 100%;
-    /* row-gap: 40px; */
-    /* color: white;
-    padding: 5px;
-    display: flex;
-    flex-direction: column;
-    align-items: center; */
+
 }
 .container-header{
     display: flex;
-    /* flex-direction:row; */
     flex-flow: row wrap;
-    /* justify-content: flex start; */
     padding: 5px;
     justify-content: space-between;
     padding-right: 10px;
 
 }
 
-/* .navbar{
-    background-color: beige;
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    padding:10px;
-    justify-content: center;
-
-}
-.navbar li a{
-    text-decoration: none;
-    color: black;
-    font-size: 20px;
-} */
 
 /* main */
 main{
     background-color:white;
-    /* background-image: url(../assets/banner-bodega-grid-avanzado.jpg); */
 }
 
 
@@ -60,7 +38,6 @@ p{
 .container-cards{
     display: flex;
     flex-direction:row;
-    /* flex-wrap:wrap;  */
     height: 800px;
     background-color: rgba(7, 7, 7, 0);
     justify-content: space-evenly;
@@ -69,12 +46,10 @@ p{
 }
 .item1{
     background-color:rgba(128, 128, 128, 0.942);
-    /* order:1; */
-    /* align-self: flex-end; */
+
 }
 .item2{
     background-color:rgba(128, 128, 128, 0.942);
-    /* order: 2; */
 }
 .item3{
     background-color:rgba(128, 128, 128, 0.942);
@@ -95,7 +70,6 @@ p{
 }
 .card-reserva{
     background-color: rgba(128, 128, 128, 0.3);
-    /* text-decoration: none; */
     color: black;
     font-size: 20px;
 
@@ -106,9 +80,7 @@ p{
     padding: 0px;
     text-align: center;
     display: flex;
-    /* flex-direction:row; */
     flex-flow: row wrap;
-    /* justify-content: flex start; */
     justify-content: center;
 }
 /* uso de grid */
@@ -197,7 +169,6 @@ nav{
     align-items: center;
     padding: 16px 24px;
     border-radius: 5px;
-    /* box-shadow: 5px 5px 5px  ; */
 }
 .menu ul{
     list-style: none;
@@ -215,16 +186,6 @@ nav #toggle, nav label{
     display: none;
 }
 
-
-
-
-
-/* responsive */
-
-/* @media(max-width:320px){
-    .container-grid{
-    }
-} */
 
 
 @media(max-width:768px){
